@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Two chords and a song</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<p class="eyebrow">Starting out</p>
+<h1>Two chords and a song</h1>
+
+<h2>Holding the guitar</h2>
+<p>Guitar on your right leg, neck angled slightly up. Thumb behind the neck.</p>
+<p>Sore fingertips are normal. Wrist pain is not — stop and reset.</p>
+
+<h2>Tuning</h2>
+<p>Any free tuner app. Before you play, every time.</p>
+
+<h2>Chords</h2>
+
+<div class="chords">
+
+  <figure>
+    <svg width="86" height="116" viewBox="0 0 86 116" role="img" aria-label="E minor: second fret on the A and D strings, all others open">
+      <g font-family="ui-monospace, monospace" font-size="11" text-anchor="middle">
+        <g fill="#6d6a65">
+          <text x="8" y="12">E</text><text x="22" y="12">A</text><text x="36" y="12">D</text>
+          <text x="50" y="12">G</text><text x="64" y="12">B</text><text x="78" y="12">e</text>
+        </g>
+        <g fill="#1c1b19">
+          <text x="8" y="28">o</text>
+          <text x="50" y="28">o</text><text x="64" y="28">o</text><text x="78" y="28">o</text>
+        </g>
+      </g>
+      <g stroke="#1c1b19" fill="none">
+        <path d="M8 34 H78" stroke-width="4"/>
+        <path d="M8 52 H78 M8 70 H78 M8 88 H78 M8 106 H78"/>
+        <path d="M8 34 V106 M22 34 V106 M36 34 V106 M50 34 V106 M64 34 V106 M78 34 V106"/>
+      </g>
+      <g fill="#1c1b19">
+        <circle cx="22" cy="61" r="7"/>
+        <circle cx="36" cy="61" r="7"/>
+      </g>
+      <g font-family="ui-monospace, monospace" font-size="10" text-anchor="middle" fill="#fff">
+        <text x="22" y="65">2</text><text x="36" y="65">3</text>
+      </g>
+    </svg>
+    <figcaption>Em</figcaption>
+  </figure>
+
+  <figure>
+    <svg width="86" height="116" viewBox="0 0 86 116" role="img" aria-label="A minor: first fret on the B string, second fret on the D and G strings, low E muted">
+      <g font-family="ui-monospace, monospace" font-size="11" text-anchor="middle">
+        <g fill="#6d6a65">
+          <text x="8" y="12">E</text><text x="22" y="12">A</text><text x="36" y="12">D</text>
+          <text x="50" y="12">G</text><text x="64" y="12">B</text><text x="78" y="12">e</text>
+        </g>
+        <g fill="#1c1b19">
+          <text x="8" y="28">x</text><text x="22" y="28">o</text><text x="78" y="28">o</text>
+        </g>
+      </g>
+      <g stroke="#1c1b19" fill="none">
+        <path d="M8 34 H78" stroke-width="4"/>
+        <path d="M8 52 H78 M8 70 H78 M8 88 H78 M8 106 H78"/>
+        <path d="M8 34 V106 M22 34 V106 M36 34 V106 M50 34 V106 M64 34 V106 M78 34 V106"/>
+      </g>
+      <g fill="#1c1b19">
+        <circle cx="36" cy="61" r="7"/>
+        <circle cx="50" cy="61" r="7"/>
+        <circle cx="64" cy="43" r="7"/>
+      </g>
+      <g font-family="ui-monospace, monospace" font-size="10" text-anchor="middle" fill="#fff">
+        <text x="36" y="65">2</text><text x="50" y="65">3</text><text x="64" y="47">1</text>
+      </g>
+    </svg>
+    <figcaption>Am</figcaption>
+  </figure>
+
+</div>
+
+<h2>Strumming</h2>
+
+<pre>
+Em                Am
+1   2   3   4     1   2   3   4
+↓   ↓   ↓   ↓     ↓   ↓   ↓   ↓
+</pre>
+
+<h2>Song</h2>
+<p>A Horse with No Name — America<br>
+<a href="https://www.youtube.com/results?search_query=america+horse+with+no+name">youtube.com</a></p>
+
+<footer>
+  <p><a href="index.html">All topics</a></p>
+</footer>
+
+</body>
+</html>
