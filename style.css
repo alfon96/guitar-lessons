@@ -1,0 +1,119 @@
+/* Guitar lessons — shared stylesheet. Edit this one file to restyle every page. */
+
+:root {
+  --ink: #1c1b19;
+  --muted: #6d6a65;
+  --rule: #ddd9d2;
+  --accent: #2d5a6b;
+  --paper: #ffffff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  max-width: 34rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 5rem;
+  background: var(--paper);
+  color: var(--ink);
+  font: 1.15rem/1.65 Georgia, "Iowan Old Style", serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* --- headings --- */
+
+h1 {
+  font-size: 1.9rem;
+  line-height: 1.2;
+  margin: 0 0 .25rem;
+}
+
+h2 {
+  font-size: 1.15rem;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-weight: 600;
+  letter-spacing: .02em;
+  margin: 2.5rem 0 .75rem;
+  padding-top: .75rem;
+  border-top: 1px solid var(--rule);
+}
+
+.eyebrow {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: .8rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 .5rem;
+}
+
+.sub {
+  color: var(--muted);
+  font-style: italic;
+  margin: 0 0 1rem;
+}
+
+/* --- text --- */
+
+p, li { margin: 0 0 1rem; }
+ul, ol { padding-left: 1.25rem; }
+li { margin-bottom: .5rem; }
+
+a { color: var(--accent); }
+
+strong { font-weight: 700; }
+
+/* chord names and anything that must not reflow */
+.chord {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* chord-over-lyric blocks: monospace so the alignment survives */
+pre {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: .95rem;
+  line-height: 1.5;
+  overflow-x: auto;
+  padding: 1rem;
+  background: #f6f5f2;
+  border-left: 3px solid var(--accent);
+}
+
+/* --- chord diagrams --- */
+
+.chords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+figure { margin: 0; text-align: center; }
+
+figcaption {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: .9rem;
+  margin-top: .4rem;
+}
+
+svg { display: block; }
+
+/* --- footer nav --- */
+
+footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+  font-size: .95rem;
+  color: var(--muted);
+}
+
+/* --- lesson index --- */
+
+.index { list-style: none; padding: 0; }
+.index li { margin-bottom: 1rem; }
+.index a { text-decoration: none; font-weight: 700; }
+.index a:hover { text-decoration: underline; }
+.index span { display: block; color: var(--muted); font-size: .95rem; }
